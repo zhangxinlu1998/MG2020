@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 01Grass
+  m_Shader: {fileID: -6465566751694194690, guid: c8e0eeb327e5e22428f1325f17360c06,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_20943320:
+        m_Texture: {fileID: 2800000, guid: 0c051ae35fea8ba4794b4252785f1617, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_733A9566:
+        m_Texture: {fileID: 2800000, guid: 1caefaaca3996ff4a99fdacb14a4cb79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_C973607:
+        m_Texture: {fileID: 2800000, guid: 035d6bb699f7b764089d8ceefda90fc5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_F724EC77:
+        m_Texture: {fileID: 2800000, guid: e1fc6b6a1e4386846865ffbb25ea4a07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture2DAsset_5ED6CB38_Out_0:
+        m_Texture: {fileID: 2800000, guid: 1caefaaca3996ff4a99fdacb14a4cb79, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_35F3E84A: 0
+    - Vector1_38A71C1A: -0.4
+    - Vector1_48D87146: 3.5
+    - Vector1_49E7B64B: 0.5
+    - Vector1_66E5BD98: 0.0015
+    - Vector1_7B5AC71A: 0.5
+    - Vector1_A900041: 0
+    - Vector1_B611223D: 0.01
+    - Vector1_BC50FC03: 0.1
+    - Vector1_D0616434: 0.01
+    - Vector1_E03F03D7: -2
+    m_Colors:
+    - Color_504C960F: {r: 1.6722223, g: 2.4294717, b: 1.363713, a: 0}
+    - Color_DA4B4AFA: {r: 1, g: 1, b: 1, a: 0}
+    - Vector2_22D2CBFA: {r: 0, g: -0.78, b: 0, a: 0}
+    - Vector2_46E69FE7: {r: 1, g: 0.5, b: 0, a: 0}
+    - Vector2_8D41C03E: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_DAF1A231: {r: 1, g: 1, b: 0, a: 0}

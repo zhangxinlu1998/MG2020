@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Particles_Fire
+  m_Shader: {fileID: 4800000, guid: df1fc7c0a836402438a44be41133e602, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Distort:
+        m_Texture: {fileID: 2800000, guid: e2792a7e67898db429fdfaf4f6d8bfb5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 65797aa9d74fb5a408cd8077422f05f3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlendOp: 0
+    - _Brightness: 0.8
+    - _Cutoff: 0.2
+    - _DistortScale: 0.4
+    - _EdgeWidth: 2
+    - _MULTIPLY: 0
+    - _Particle: -0.15
+    - _Scale: 1
+    - _Speed: 1.5
+    - _Stretch: 0.5
+    m_Colors:
+    - _EdgeColor: {r: 1, g: 0.5, b: 0, a: 1}
+    - _Tint: {r: 0.9339623, g: 0.4359064, b: 0, a: 1}

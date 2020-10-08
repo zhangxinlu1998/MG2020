@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Universal Render Pipeline_Custom_UnlitBase
+  m_Shader: {fileID: 4800000, guid: bb23554c495a4fb46ab5d1a72214b355, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CauTex:
+        m_Texture: {fileID: 2800000, guid: b0b80ff4b1330fa48ab9b2fa9d0b3140, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisTex:
+        m_Texture: {fileID: 2800000, guid: e181cadfd843cb941949c1b26dc7231a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortTex:
+        m_Texture: {fileID: 2800000, guid: e6d3f135f05c9e74bae6b17f9657df80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTex:
+        m_Texture: {fileID: 2800000, guid: f2e9b4cc6712ea74b9097abb5a76b824, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _IceTex:
+        m_Texture: {fileID: 2800000, guid: 89b2335b3811c60428179466184497eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 49b3596e6ba33f242b6548b79398eda8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _CauScale: 1
+    - _Caustics: 0.045
+    - _Deep: 1.53
+    - _DisScale: 0.101
+    - _Distort: 0.0268
+    - _DistortScale: 0.393
+    - _DistortSpeed: 0.209
+    - _FoamFade: 1.4
+    - _FoamRange: 0.1
+    - _FoamScale: 0.904
+    - _FoamSpeed: 0.1
+    - _Height: 0.322
+    - _IceScale: 1.84
+    - _SpecularRange: 67
+    - _Speed: 1.65
+    - _TrSpeed: 4.23
+    - _Transform: 0
+    - _Wave: 0
+    - _WaveScale: 0.099
+    - _Wavescale: 3
+    - _waveSpeed: 0.06
+    m_Colors:
+    - _CauColor: {r: 0.14542542, g: 0.6865214, b: 0.7169812, a: 1}
+    - _Color: {r: 0.22659309, g: 0.6416981, b: 0.7169812, a: 1}
+    - _DeepColor: {r: 0.28159487, g: 0.4616243, b: 0.5283019, a: 1}
+    - _FoamColor: {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
+    - _IceColor: {r: 0.9528302, g: 0.91310644, b: 0.8944019, a: 1}
+    - _ShallowColor: {r: 0.080099694, g: 0.26965597, b: 0.3773585, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Wavecol: {r: 1, g: 1, b: 1, a: 1}
